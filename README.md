@@ -9,6 +9,7 @@ The simulator models a road network as an undirected weighted graph. Cities are 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Main Features](#main-features)
 - [How the Simulation Works](#how-the-simulation-works)
 - [Graph and Routing Model](#graph-and-routing-model)
@@ -40,6 +41,39 @@ The user can:
 - view congested or important routes.
 
 The project focuses on the practical application of graphs, linked structures, pathfinding algorithms, object-oriented design, and interactive visualization.
+
+
+## Screenshots
+
+### Road Network Editor
+
+The initial view shows the weighted road network, city nodes, road connections, current mode, and available controls.
+
+<p align="center">
+  <img src="docs/images/network-editor.png"
+       alt="Traffic Simulator road network editor"
+       width="100%">
+</p>
+
+### Active Traffic Simulation
+
+Vehicles move through the graph using routes calculated from the current edge weights. The information mode displays vehicle activity and updated distances across the network.
+
+<p align="center">
+  <img src="docs/images/traffic-simulation.png"
+       alt="Traffic Simulator running with multiple vehicles"
+       width="100%">
+</p>
+
+### Dynamic Obstacles and Congestion
+
+Road events and congestion modify edge costs. New shortest-path calculations use the updated state of the network.
+
+<p align="center">
+  <img src="docs/images/dynamic-obstacles.png"
+       alt="Traffic Simulator obstacle mode with dynamic road conditions"
+       width="100%">
+</p>
 
 ## Main Features
 
